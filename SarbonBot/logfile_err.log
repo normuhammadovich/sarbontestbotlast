@@ -1,0 +1,1396 @@
+executor.py [LINE:362] #INFO     [2023-12-06 20:52:09,403]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 20:52:09,419]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 20:52:09,421]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-06 20:54:02,353]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 20:54:02,371]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 20:54:02,395]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-06 20:59:12,581]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 20:59:12,597]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 20:59:12,599]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-06 21:00:05,556]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 21:00:05,574]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 21:00:05,596]  Start polling.
+error_handler.py [LINE:58] #ERROR    [2023-12-06 21:00:11,168]  Update: {"update_id": 556697642, "message": {"message_id": 227666, "from": {"id": 1393139047, "is_bot": false, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "language_code": "en"}, "chat": {"id": 1393139047, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "type": "private"}, "date": 1701892811, "text": "/start", "entities": [{"type": "bot_command", "offset": 0, "length": 6}]}} 
+Database.add_user() got an unexpected keyword argument 'user_name'
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 34, in bot_start_get_contact
+    db.add_user(
+TypeError: Database.add_user() got an unexpected keyword argument 'user_name'
+base_events.py [LINE:1758] #ERROR    [2023-12-06 21:00:11,170]  Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("Database.add_user() got an unexpected keyword argument 'user_name'")>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 34, in bot_start_get_contact
+    db.add_user(
+TypeError: Database.add_user() got an unexpected keyword argument 'user_name'
+executor.py [LINE:362] #INFO     [2023-12-06 21:02:11,269]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 21:02:11,293]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 21:02:11,295]  Start polling.
+error_handler.py [LINE:58] #ERROR    [2023-12-06 21:02:18,273]  Update: {"update_id": 556697647, "message": {"message_id": 227678, "from": {"id": 1393139047, "is_bot": false, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "language_code": "en"}, "chat": {"id": 1393139047, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "type": "private"}, "date": 1701892938, "text": "/start", "entities": [{"type": "bot_command", "offset": 0, "length": 6}]}} 
+Database.add_user() got an unexpected keyword argument 'user_name'
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 27, in bot_start_get_contact
+    db.add_user(
+TypeError: Database.add_user() got an unexpected keyword argument 'user_name'
+base_events.py [LINE:1758] #ERROR    [2023-12-06 21:02:18,274]  Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("Database.add_user() got an unexpected keyword argument 'user_name'")>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 27, in bot_start_get_contact
+    db.add_user(
+TypeError: Database.add_user() got an unexpected keyword argument 'user_name'
+executor.py [LINE:362] #INFO     [2023-12-06 21:03:55,122]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 21:03:55,141]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 21:03:55,143]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-06 21:07:21,612]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-06 21:07:21,627]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-06 21:07:21,629]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-07 20:47:39,052]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-07 20:47:39,085]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-07 20:47:39,087]  Start polling.
+error_handler.py [LINE:49] #ERROR    [2023-12-07 20:48:00,762]  TelegramAPIError: File must be non-empty 
+Update: {"update_id": 556697926, "message": {"message_id": 228249, "from": {"id": 1393139047, "is_bot": false, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "language_code": "en"}, "chat": {"id": 1393139047, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "type": "private"}, "date": 1701978480, "text": "/logging", "entities": [{"type": "bot_command", "offset": 0, "length": 8}]}}
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 93, in error
+    await message.answer_document(document=open("logfile.log", "rb"))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 787, in answer_document
+    return await self.bot.send_document(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 761, in send_document
+    result = await self.request(api.Methods.SEND_DOCUMENT, payload, files)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: File must be non-empty
+error_handler.py [LINE:58] #ERROR    [2023-12-07 20:48:48,129]  Update: {"update_id": 556697928, "message": {"message_id": 228252, "from": {"id": 1393139047, "is_bot": false, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "language_code": "en"}, "chat": {"id": 1393139047, "first_name": "JAHONGIR 🇺🇿", "last_name": "ISMOILOV 🇺🇿", "username": "DAHO_DASTURCHI", "type": "private"}, "date": 1701978528, "text": "/database", "entities": [{"type": "bot_command", "offset": 0, "length": 9}]}} 
+[Errno 2] No such file or directory: './core/data/main.db.log'
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 89, in error
+    await message.answer_document(document=open("./core/data/main.db.log", "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: './core/data/main.db.log'
+base_events.py [LINE:1758] #ERROR    [2023-12-07 20:48:48,130]  Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 89, in error
+    await message.answer_document(document=open("./core/data/main.db.log", "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: './core/data/main.db.log'
+executor.py [LINE:362] #INFO     [2023-12-07 20:50:41,458]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-07 20:50:41,478]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-07 20:50:41,480]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-07 21:08:25,361]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-07 21:08:25,377]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-07 21:08:25,379]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-07 21:20:11,008]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-07 21:20:11,062]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-07 21:20:11,064]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-07 21:29:12,327]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-07 21:29:12,344]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-07 21:29:12,346]  Start polling.
+dispatcher.py [LINE:390] #ERROR    [2023-12-08 02:10:23,610]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+base_events.py [LINE:1758] #ERROR    [2023-12-16 07:48:45,131]  Task exception was never retrieved
+future: <Task finished name='Task-38030' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BotKicked('Forbidden: bot was kicked from the supergroup chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.BotKicked: Forbidden: bot was kicked from the supergroup chat
+executor.py [LINE:362] #INFO     [2023-12-19 11:01:35,614]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-19 11:01:35,628]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-19 11:01:35,630]  Start polling.
+executor.py [LINE:362] #INFO     [2023-12-21 12:02:13,335]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2023-12-21 12:02:13,350]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-12-21 12:02:13,351]  Start polling.
+dispatcher.py [LINE:390] #ERROR    [2023-12-28 23:33:27,604]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+base_events.py [LINE:1758] #ERROR    [2024-01-09 07:51:23,708]  Task exception was never retrieved
+future: <Task finished name='Task-82929' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 07:57:40,264]  Task exception was never retrieved
+future: <Task finished name='Task-82953' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 08:08:59,785]  Task exception was never retrieved
+future: <Task finished name='Task-82991' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 08:13:09,661]  Task exception was never retrieved
+future: <Task finished name='Task-83009' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 08:13:09,767]  Task exception was never retrieved
+future: <Task finished name='Task-83014' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:27,751]  Task exception was never retrieved
+future: <Task finished name='Task-83218' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:27,860]  Task exception was never retrieved
+future: <Task finished name='Task-83237' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:27,975]  Task exception was never retrieved
+future: <Task finished name='Task-83248' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,083]  Task exception was never retrieved
+future: <Task finished name='Task-83253' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,194]  Task exception was never retrieved
+future: <Task finished name='Task-83261' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,316]  Task exception was never retrieved
+future: <Task finished name='Task-83276' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,411]  Task exception was never retrieved
+future: <Task finished name='Task-83281' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,551]  Task exception was never retrieved
+future: <Task finished name='Task-83289' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,640]  Task exception was never retrieved
+future: <Task finished name='Task-83294' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,760]  Task exception was never retrieved
+future: <Task finished name='Task-83305' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,862]  Task exception was never retrieved
+future: <Task finished name='Task-83313' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 09:18:28,970]  Task exception was never retrieved
+future: <Task finished name='Task-83327' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 12:49:26,827]  Task exception was never retrieved
+future: <Task finished name='Task-83981' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 12:57:42,895]  Task exception was never retrieved
+future: <Task finished name='Task-84013' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 12:57:43,000]  Task exception was never retrieved
+future: <Task finished name='Task-84018' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-09 12:58:34,702]  Task exception was never retrieved
+future: <Task finished name='Task-84025' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+dispatcher.py [LINE:390] #ERROR    [2024-01-10 20:10:56,530]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+base_events.py [LINE:1758] #ERROR    [2024-01-11 15:11:58,634]  Task exception was never retrieved
+future: <Task finished name='Task-93224' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-15 06:27:15,529]  Task exception was never retrieved
+future: <Task finished name='Task-119545' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+base_events.py [LINE:1758] #ERROR    [2024-01-15 06:28:29,699]  Task exception was never retrieved
+future: <Task finished name='Task-119559' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Not enough rights to send text messages to the chat')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 35, in on_pre_process_update
+    await update.message.answer(result, reply_markup=markup,disable_web_page_preview=True)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Not enough rights to send text messages to the chat
+dispatcher.py [LINE:390] #ERROR    [2024-01-19 02:10:23,685]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+executor.py [LINE:362] #INFO     [2024-01-19 08:09:42,428]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 08:09:42,446]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 08:09:42,450]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 08:13:16,595]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 08:13:16,608]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 08:13:16,610]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 10:02:02,312]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 10:02:02,344]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 10:02:02,349]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 10:26:12,839]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 10:26:12,899]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 10:26:12,902]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 10:39:32,907]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 10:39:32,921]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 10:39:32,923]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 10:47:53,042]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 10:47:53,063]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 10:47:53,065]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 11:10:08,104]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 11:10:08,142]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 11:10:08,145]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 11:12:57,938]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 11:12:57,986]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 11:12:57,989]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 11:28:37,151]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 11:28:37,168]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 11:28:37,171]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 11:29:43,893]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 11:29:43,914]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 11:29:43,916]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 11:34:02,774]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 11:34:02,790]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 11:34:02,798]  Start polling.
+                                                                                                                                                                                                                                                                               executor.py [LINE:362] #INFO     [2024-01-19 12:01:52,829]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 12:01:52,845]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 12:01:52,848]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-19 12:03:56,042]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-19 12:03:56,069]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-19 12:03:56,072]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-21 18:56:02,353]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-21 18:56:02,368]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-21 18:56:02,371]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-24 12:58:42,199]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-24 12:58:42,218]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-24 12:58:42,224]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-24 13:06:10,978]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-24 13:06:10,993]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-24 13:06:10,995]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-24 13:09:49,912]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-24 13:09:49,928]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-24 13:09:49,931]  Start polling.
+dispatcher.py [LINE:390] #ERROR    [2024-01-27 01:24:50,344]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+dispatcher.py [LINE:390] #ERROR    [2024-01-27 01:24:55,363]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+dispatcher.py [LINE:390] #ERROR    [2024-01-27 01:54:02,535]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+dispatcher.py [LINE:390] #ERROR    [2024-01-27 01:54:07,547]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:29] #ERROR    [2024-01-28 06:44:20,693]  Message cant be deleted
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+dispatcher.py [LINE:390] #ERROR    [2024-01-29 00:20:28,910]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+executor.py [LINE:362] #INFO     [2024-01-29 07:57:55,180]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 07:57:55,201]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 07:57:55,205]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:26:23,092]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:26:23,108]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:26:23,112]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:53:37,920]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:53:37,935]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:53:37,937]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:54:18,837]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:54:18,852]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:54:18,855]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:55:10,670]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:55:10,691]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:55:10,694]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:55:40,600]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:55:40,616]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:55:40,619]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:57:19,708]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:57:19,725]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:57:19,728]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:57:50,879]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:57:50,895]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:57:50,897]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 08:59:10,890]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 08:59:10,909]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 08:59:10,912]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 09:03:11,999]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 09:03:12,016]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 09:03:12,019]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 09:05:24,090]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 09:05:24,108]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 09:05:24,110]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 09:57:15,712]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 09:57:15,751]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 09:57:15,755]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 10:33:29,811]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 10:33:29,835]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 10:33:29,839]  Start polling.
+executor.py [LINE:362] #INFO     [2024-01-29 11:50:35,063]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-01-29 11:50:35,094]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-01-29 11:50:35,101]  Start polling.
+error_handler.py [LINE:33] #ERROR    [2024-02-04 17:59:18,890]  Message to delete not found
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2024-02-04 17:59:18,932]  Message to delete not found
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2024-02-04 17:59:18,933]  Message to delete not found
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:29] #ERROR    [2024-02-07 09:19:12,426]  Message cant be deleted
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+executor.py [LINE:362] #INFO     [2024-02-14 07:29:37,211]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-14 07:29:37,255]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-14 07:29:37,260]  Start polling.
+dispatcher.py [LINE:390] #ERROR    [2024-02-16 00:59:11,147]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+dispatcher.py [LINE:390] #ERROR    [2024-02-16 00:59:16,180]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:29] #ERROR    [2024-02-18 07:35:20,981]  Message cant be deleted
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2024-02-18 10:55:56,753]  Message to delete not found
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2024-02-18 10:55:56,853]  Message to delete not found
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:49] #ERROR    [2024-02-18 12:22:57,421]  TelegramAPIError: Flood control exceeded. Retry in 532 seconds. 
+Update: {"update_id": 556710618, "message": {"message_id": 251586, "from": {"id": 5067632952, "is_bot": false, "first_name": "My mother", "language_code": "uz"}, "chat": {"id": 5067632952, "first_name": "My mother", "type": "private"}, "date": 1708255363, "text": "7071"}}
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/for_user.py", line 22, in getId
+    await message.answer_document(document=file, caption=f"{id} id raqamli natijalar fayli.")
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 787, in answer_document
+    return await self.bot.send_document(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 761, in send_document
+    result = await self.request(api.Methods.SEND_DOCUMENT, payload, files)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 532 seconds.
+error_handler.py [LINE:49] #ERROR    [2024-02-18 12:33:35,596]  TelegramAPIError: Flood control exceeded. Retry in 428 seconds. 
+Update: {"update_id": 556710621, "message": {"message_id": 251591, "from": {"id": 6655454335, "is_bot": false, "first_name": "Orzubek", "language_code": "uz"}, "chat": {"id": 6655454335, "first_name": "Orzubek", "type": "private"}, "date": 1708256015, "text": "/start", "entities": [{"type": "bot_command", "offset": 0, "length": 6}]}}
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/start.py", line 23, in bot_start_get_contact
+    await message.answer(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 430, in answer
+    return await self.bot.send_message(
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 428 seconds.
+base_events.py [LINE:1758] #ERROR    [2024-02-18 12:34:06,314]  Task exception was never retrieved
+future: <Task finished name='Task-21116' coro=<Dispatcher._process_polling_updates() done, defined at /home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=RetryAfter('Flood control exceeded. Retry in 322 seconds.')>
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 101, in notify
+    await self.dispatcher.middleware.trigger(f"pre_process_{self.middleware_key}", args + (data,))
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 53, in trigger
+    await app.trigger(action, args)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares.py", line 106, in trigger
+    await handler(*args)
+  File "/home/alfa/bots/studybot/core/middlewares/is_member.py", line 31, in on_pre_process_update
+    final_status = await subscription.check(user)
+  File "/home/alfa/bots/studybot/core/utils/misc/subscription.py", line 12, in check
+    member = await bot.get_chat_member(user_id=user_id, chat_id=channel)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 2656, in get_chat_member
+    result = await self.request(api.Methods.GET_CHAT_MEMBER, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 322 seconds.
+error_handler.py [LINE:33] #ERROR    [2024-02-18 13:24:14,952]  Message to delete not found
+Traceback (most recent call last):
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/alfa/bots/studybot/core/handlers/users/is_channel_member.py", line 26, in check_subs_queryback
+    await query.message.delete()
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3088, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3274, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/alfa/bots/studybot/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+executor.py [LINE:362] #INFO     [2024-02-19 06:50:55,252]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 06:50:55,269]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 06:50:55,274]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 06:54:02,041]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 06:54:02,060]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 06:54:02,068]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 06:55:06,682]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 06:55:06,696]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 06:55:06,711]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 06:56:10,577]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 06:56:10,594]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 06:56:10,598]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 07:09:29,879]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 07:09:29,897]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 07:09:29,902]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 07:14:53,128]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 07:14:53,143]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 07:14:53,147]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 07:15:21,934]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 07:15:21,948]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 07:15:21,951]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 07:24:56,050]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 07:24:56,074]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 07:24:56,077]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 07:26:41,759]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 07:26:41,772]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 07:26:41,774]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 07:37:37,907]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 07:37:37,922]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 07:37:37,925]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 17:01:07,120]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 17:01:07,143]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 17:01:07,148]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-19 22:12:02,522]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-19 22:12:02,543]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-19 22:12:02,552]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-20 12:22:41,006]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-20 12:22:41,103]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-20 12:22:41,114]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-20 13:08:11,946]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-20 13:08:11,985]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-20 13:08:11,994]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-20 13:37:22,714]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-20 13:37:22,733]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-20 13:37:22,741]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-25 05:52:02,761]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-25 05:52:02,793]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-25 05:52:02,797]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-25 05:56:43,536]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-25 05:56:43,554]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-25 05:56:43,559]  Start polling.
+executor.py [LINE:362] #INFO     [2024-02-25 09:56:06,526]  Bot: Sarbon Test Bot [@sarbontest_bot]
+executor.py [LINE:358] #WARNING  [2024-02-25 09:56:06,545]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2024-02-25 09:56:06,553]  Start polling.
